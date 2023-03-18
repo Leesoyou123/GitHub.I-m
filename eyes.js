@@ -77,11 +77,11 @@ function draw() {
 	
 //EYES
 	push();
-	translate(windowWidth/2-55, 500);
+	translate(windowWidth/2-55, windowHeight/2+40);
 	drawEye();	
 	pop();
 	push();
-	translate(windowWidth/2+55, 500);
+	translate(windowWidth/2+55, windowHeight/2+40);
 	rotate(-50);
 	drawEye();
 	pop();
